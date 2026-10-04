@@ -1,26 +1,23 @@
-# Zion Incident Triage AI
+# 🚦 Zion Incident Triage
 
-Agentic security triage — classifies, correlates and routes AI and infrastructure alerts in seconds, so your team responds to signal, not noise.
+Agentic triage that classifies, correlates and routes security & IT alerts in seconds. Part of the **Zion AI Security & Trust Suite (Batch 71)**.
 
-**Live app:** https://ziontechgroup.com/zion-incident-triage/
+## What it does
+- Ingests alerts from SIEM, EDR, cloud and AI-security tools
+- Clusters duplicates, scores severity, enriches with asset & threat context
+- Routes to the right owner with suggested runbooks and SLAs
+- Auto-escalates incidents with business-impact context
 
-## Features
-- Ingests events from [Prompt Injection Shield](https://ziontechgroup.com/zion-prompt-shield/), [Data Loss Guardian](https://ziontechgroup.com/zion-data-guardian/) and your SIEM
-- LLM-powered classification with confidence scoring and deduplication
-- Auto-routing to the right on-call owner with context-rich incident briefs
-- Post-incident timelines exported to [AI Compliance Copilot](https://ziontechgroup.com/zion-ai-compliance-copilot/)
+## Key features
+- Noise reduction: dedupe + correlation across sources
+- Native intake from [Zion Prompt Shield](https://github.com/Zion-support/zion-prompt-shield), [Zion Data Guardian](https://github.com/Zion-support/zion-data-guardian) and [Zion Model Integrity](https://github.com/Zion-support/zion-model-integrity)
+- Postmortems auto-drafted by [Zion Incident Postmortem Writer](https://github.com/Zion-support/zion-incident-postmortem-writer)
+- PagerDuty/Opsgenie/Jira/ServiceNow integrations
 
-## Part of the Zion AI Security & Trust Suite (Batch 71)
-- [Zion AI Red Team Studio](https://ziontechgroup.com/zion-ai-red-team/) · [repo](https://github.com/Zion-support/zion-ai-red-team)
-- [Zion Prompt Injection Shield](https://ziontechgroup.com/zion-prompt-shield/) · [repo](https://github.com/Zion-support/zion-prompt-shield)
-- [Zion Data Loss Guardian](https://ziontechgroup.com/zion-data-guardian/) · [repo](https://github.com/Zion-support/zion-data-guardian)
-- [Zion Model Integrity Monitor](https://ziontechgroup.com/zion-model-integrity/) · [repo](https://github.com/Zion-support/zion-model-integrity)
-- [Zion AI Compliance Copilot](https://ziontechgroup.com/zion-ai-compliance-copilot/) · [repo](https://github.com/Zion-support/zion-ai-compliance-copilot)
+## 🔗 Zion App Network
+- Suite hub: [zion-network](https://github.com/Zion-support/zion-network) · [network.json](https://github.com/Zion-support/zion-network/blob/main/network.json)
+- Sister apps: [Zion Prompt Shield](https://github.com/Zion-support/zion-prompt-shield) · [Zion Data Guardian](https://github.com/Zion-support/zion-data-guardian) · [Zion AI Red Team](https://github.com/Zion-support/zion-ai-red-team) · [Zion Model Integrity](https://github.com/Zion-support/zion-model-integrity) · [Zion AI Compliance Copilot](https://github.com/Zion-support/zion-ai-compliance-copilot)
+- 🌐 [ziontechgroup.com](https://ziontechgroup.com) · [Plans](https://ziontechgroup.com/plans/) · [Discovery call ($99)](https://ziontechgroup.com/discovery/)
 
-## Network
-- Hub: https://ziontechgroup.com/zion-app-network/ · Apps: https://ziontechgroup.com/apps/
-- Showcase: https://ziontechgroup.com/zion-app-network/app-network-batch71-oct03.html
-- Blog: https://ziontechgroup.com/blog/ai-security-trust-suite/
-- Plans: https://ziontechgroup.com/en/plans/ (Discovery $99 · Consulting $499 · Starter $2,500 · Growth $8,000/mo)
-
-© 2026 Zion Tech Group — MIT License
+## License
+MIT — © Zion Tech Group
